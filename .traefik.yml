@@ -4,3 +4,5 @@ type: middleware
 import: github.com/tdilber/anouncy-traefik-plugin
 compatibility: TODO
 testData:
+  resolverUrl: "http://localhost:8085/user/token-resolver/"
+  logLevel: "DEBUG"

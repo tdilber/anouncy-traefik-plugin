@@ -1,3 +1,3 @@
 module github.com/tdilber/anouncy-traefik-plugin
 
-go 1.16
+go 1.15
