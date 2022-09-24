@@ -18,8 +18,8 @@ var (
 
 // Config the plugin configuration.
 type Config struct {
-	resolverUrl string `yaml:"resolverUrl"`
-	logLevel    string `yaml:"logLevel"`
+	resolverUrl string `yaml:"resolverurl"`
+	logLevel    string `yaml:"loglevel"`
 }
 
 // CreateConfig creates and initializes the plugin configuration.
