@@ -24,10 +24,7 @@ type Config struct {
 
 // CreateConfig creates and initializes the plugin configuration.
 func CreateConfig() *Config {
-	return &Config{
-		resolverUrl: "http://localhost:8085/user/token-resolver/",
-		logLevel:    "DEBUG",
-	}
+	return &Config{}
 }
 
 type UserResolveResult struct {
