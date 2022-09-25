@@ -24,7 +24,10 @@ type Config struct {
 
 // CreateConfig creates and initializes the plugin configuration.
 func CreateConfig() *Config {
-	return &Config{}
+	return &Config{
+		resolverUrl: "http://user-service.default.svc.cluster.local:8080/user/token-resolver/",
+		logLevel:    "DEBUG",
+	}
 }
 
 type UserResolveResult struct {
